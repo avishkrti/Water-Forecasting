@@ -31,6 +31,7 @@ CONTENT_STYLE = {
 
 sidebar = html.Div(
     [
+        html.Link(rel='stylesheet', href='/assets/custom.css'),
         html.H1("Water Management", style={"color": "white",}),
         html.Hr(),
         html.P(
@@ -38,10 +39,10 @@ sidebar = html.Div(
         ),
         dbc.Nav(
             [
-                dbc.NavLink("KRS", href="/pages/page1", active="exact",  style={"color": "white","font-weight":"bold", "background.active":"linear-gradient(135deg, #f64074 0%,#fdab0d 100%)"}),
-                dbc.NavLink("HARANGI", href="/page-2", active="exact", style={"color": "white","font-weight":"bold", "background.active":"linear-gradient(135deg, #f64074 0%,#fdab0d 100%)"}),
-                dbc.NavLink("HEMATI", href="/page-3", active="exact", style={"color": "white","font-weight":"bold", "background.active":"linear-gradient(135deg, #f64074 0%,#fdab0d 100%)"}),
-                dbc.NavLink("KABINI", href="/page-4", active="exact", style={"color": "white","font-weight":"bold", "background.active":"linear-gradient(135deg, #f64074 0%,#fdab0d 100%)"}),
+                dbc.NavLink("KRS", href="/pages/page1", active="exact",  style={"color": "white","font-weight":"bold"}),
+                dbc.NavLink("HARANGI", href="/page-2", active="exact", style={"color": "white","font-weight":"bold"}),
+                dbc.NavLink("HEMATI", href="/page-3", active="exact", style={"color": "white","font-weight":"bold"}),
+                dbc.NavLink("KABINI", href="/page-4", active="exact", style={"color": "white","font-weight":"bold"}),
             ],
             vertical=True,
             pills=True,
