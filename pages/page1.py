@@ -8,7 +8,7 @@ import pandas as pd
 import plotly.graph_objects as go
 from app import app, cache
 from matplotlib import pyplot
-from sklearn.metrics import mean_absolute_error
+
 
 ###prediction data
 #pr1 = pd.read_csv('df.csv')
