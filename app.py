@@ -10,7 +10,7 @@ import flask
 server = flask.Flask(__name__, template_folder='assets')
 
 app = dash.Dash(__name__, suppress_callback_exceptions=True, eager_loading=True,
-                server=server, external_stylesheets=[dbc.themes.BOOTSTRAP, "https://codepen.io/chriddyp/pen/bWLwgP.css", "https://raw.githubusercontent.com/avishkrti/Water-Forecasting/main/assets/custom.css"])
+                server=server, external_stylesheets=[dbc.themes.BOOTSTRAP, "https://codepen.io/chriddyp/pen/bWLwgP.css"])
 app.title="Technocrats"
 server = app.server
 
