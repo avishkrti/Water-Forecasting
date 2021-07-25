@@ -5,9 +5,9 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 from pages import page1
 
-# import flask
+import flask
 
-# server = flask.Flask(__name__, template_folder='assets')
+server = flask.Flask(__name__, template_folder='assets')
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 # the style arguments for the sidebar. We use position:fixed and a fixed width
