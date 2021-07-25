@@ -211,7 +211,7 @@ simple_card = html.Div(
             #         #dbc.Button("Go somewhere", color="primary"),
             #     ]
             # ),
-            dbc.CardImg(src="https://github.com/avishkrti/Water-Forecasting/blob/main/static/krs_dam.jpeg", style={"height":"30rem","width":"28rem", "border-radius": "50px"}),
+            dbc.CardImg(src="https://raw.githubusercontent.com/avishkrti/Water-Forecasting/main/static/krs_dam.jpeg", style={"height":"30rem","width":"28rem", "border-radius": "50px"}),
         ],
         style={"border-radius": "50px", "box-shadow": "0px 0px 8px 8px #ebe9e8",
                 "-webkit-box-shadow": "0px 0px 8px 8px #ebe9e8","height":"30rem", "width": "28rem", "padding":"all"},
