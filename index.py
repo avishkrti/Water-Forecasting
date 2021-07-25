@@ -31,7 +31,7 @@ CONTENT_STYLE = {
 
 sidebar = html.Div(
     [
-        html.Link(rel='stylesheet', href='/assets/custom.css'),
+        html.Link(rel='stylesheet', href='https://raw.githubusercontent.com/avishkrti/Water-Forecasting/main/assets/custom.css'),
         html.H1("Water Management", style={"color": "white",}),
         html.Hr(),
         html.P(
