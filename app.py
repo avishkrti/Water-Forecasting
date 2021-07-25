@@ -4,13 +4,13 @@ import dash_html_components as html
 import dash_bootstrap_components as dbc
 from flask_caching import Cache
 
-import flask
+# import flask
 
 
-server = flask.Flask(__name__, template_folder='assets')
+# server = flask.Flask(__name__, template_folder='assets')
 
 app = dash.Dash(__name__, suppress_callback_exceptions=True, eager_loading=True,
-                server=server, external_stylesheets=[dbc.themes.BOOTSTRAP, "https://codepen.io/chriddyp/pen/bWLwgP.css"])
+                server=server, external_stylesheets=[dbc.themes.BOOTSTRAP, "https://codepen.io/chriddyp/pen/bWLwgP.css", "https://raw.githubusercontent.com/avishkrti/Water-Forecasting/main/assets/custom.css"])
 app.title="Technocrats"
 server = app.server
 
