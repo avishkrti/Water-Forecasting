@@ -7,7 +7,6 @@ import plotly.express as px
 import pandas as pd
 import plotly.graph_objects as go
 from app import app, cache
-from matplotlib import pyplot
 
 
 ###prediction data
