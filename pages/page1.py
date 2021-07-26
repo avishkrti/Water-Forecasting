@@ -176,11 +176,11 @@ def bar_line_chart():
 def show_prediction():
     fig = px.line(pr2, x="ds", y="level", color="type")
     fig.update_layout(
-        title="Monthwise reservoir level",
+        title="Monthwise Reservoir Level",
         title_x=0.5,
         # hovertemplate='Month: %{x}'+'<br>Year: %{text:.2f}', 
-        xaxis_title="Month",
-        yaxis_title="Year",
+        xaxis_title="Date",
+        yaxis_title="Reservoir Level",
         plot_bgcolor='#FFFFFF',
         #paper_bgcolor='#D3D3D3',
         #hovermode="x unified",
@@ -188,7 +188,7 @@ def show_prediction():
             #family="Courier New, monospace",
             size=10,
             color="#000000"
-            
+          
         )
     )
     return fig

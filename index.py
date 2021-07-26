@@ -41,7 +41,7 @@ sidebar = html.Div(
             [
                 dbc.NavLink("KRS", href="/pages/page1", active="exact",  style={"color": "white","font-weight":"bold", "background":"linear-gradient(135deg, #f64074 0%,#fdab0d 100%)"}),
                 dbc.NavLink("HARANGI", href="/page-2", active="exact", style={"color": "white","font-weight":"bold"}),
-                dbc.NavLink("HEMATI", href="/page-3", active="exact", style={"color": "white","font-weight":"bold"}),
+                dbc.NavLink("Hemavathy", href="/page-3", active="exact", style={"color": "white","font-weight":"bold"}),
                 dbc.NavLink("KABINI", href="/page-4", active="exact", style={"color": "white","font-weight":"bold"}),
             ],
             vertical=True,
